@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: create-a-vm1
+  description: AWS Create
+  annotations:
+    backstage.io/kubernetes-id: create-a-vm1
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/create-a-vm1
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
